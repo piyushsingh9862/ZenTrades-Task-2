@@ -1,7 +1,7 @@
 # ZenTrades(SmartServ) Task-2
 
 
-## A user can choose the file specify formatting and customize the display handling options to get the desired table.
+## A user can choose the file, specify formatting and customize the display handling options to get the desired table.
 
 ### [GitHub Pages Link](https://piyushsingh9862.github.io/ZenTrades-Task-2/)
 
