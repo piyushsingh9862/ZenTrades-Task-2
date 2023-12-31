@@ -1,38 +1,99 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  background-color: #f2f2f2;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.half-div {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.full-div {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#fileInput,
+#formatDropdown,
+#encodingDropdown,
+#delimiterDropdown,
+#hasHeaderCheckbox {
+  margin-bottom: 20px;
+}
+
+#columnSelector {
+  width: 200px;
+}
+
+#selectedColumnsTable {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Additional styles to match the specified HTML file */
+.body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  margin-bottom: 10px;
+}
+
+#fileInfo {
+  margin-top: 10px;
+}
+
+input[type='file'] {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
 }

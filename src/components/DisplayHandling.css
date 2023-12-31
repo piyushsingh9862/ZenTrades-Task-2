@@ -1,0 +1,17 @@
+.column-list {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .column-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column-list li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
