@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ZenTrades-Task-2/static/css/main.0e148c06.css",
+    "main.js": "/ZenTrades-Task-2/static/js/main.52a98a73.js",
+    "static/js/787.caca3905.chunk.js": "/ZenTrades-Task-2/static/js/787.caca3905.chunk.js",
+    "index.html": "/ZenTrades-Task-2/index.html",
+    "main.0e148c06.css.map": "/ZenTrades-Task-2/static/css/main.0e148c06.css.map",
+    "main.52a98a73.js.map": "/ZenTrades-Task-2/static/js/main.52a98a73.js.map",
+    "787.caca3905.chunk.js.map": "/ZenTrades-Task-2/static/js/787.caca3905.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e148c06.css",
+    "static/js/main.52a98a73.js"
+  ]
+}
